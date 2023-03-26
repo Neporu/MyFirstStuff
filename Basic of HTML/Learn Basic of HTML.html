@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World!</title>
+    </head>
+    <body>
+        <h1 id="top">
+            Basics of HTML
+        </h1>
+        <p>
+            <a href="HTML2 Learn.html">Go to image page</a><br><br>
+            This is Top / <a href="#bottom">Go Bottom</a>
+        </p>
+        <hr> <!-- Horizontal Line -->
+        <h4>Inside of Paragraph (h4)</h4>
+        <!--list of text type-->
+        <p>
+            <strong>Strong</strong><br>
+            <em>Emphasis</em><br>
+            <u>Underline</u><br>
+            <strong><em><u>Strong Emphasis Underline</u></em></strong>
+        </p>
+        <hr> <!-- Horizontal Line -->
+        <p>|</p>
+        <p>|</p>
+        <p>|</p>
+        <p>|</p>
+        <p>|</p>
+        <p>|</p>
+        <p>|</p>
+        <hr> <!-- Horizontal Line -->
+        <h1>Block Element</h1>
+            <p>
+                Block element is an element that takes up entire width
+            </p>
+            Header & Paragraph <br>
+            Can't be nested <br>
+            &nbsp; <br>
+            Excample : <br>
+            <h2>
+                Header and next to it is
+                <p>Paragraph</p>
+            </h2>
+            <p>----------------------------------------</p>
+            Unless it's a div : <br>
+            <div>div 1</div>
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <div>
+                                    6 times div
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        <h1>Inline Element</h1>
+        <p>
+            Span & Link 'A'nchor <br>
+            <span>span 1</span> <a href="https:google.com">Google</a>
+        </p>
+        <hr>
+        <p>|</p>
+        <p>|</p>
+        <p>|</p>
+        <p>|</p>
+        <p>|</p>
+        <hr> <!-- Horizontal Line -->
+        <h4>
+            Unordered List (ul)
+        </h4>
+        <ul>
+            <li>Number 1</li>
+            <li>Number 2</li>
+            <li>Number 3</li>
+        </ul>
+        <h4>
+            Ordered List (ol)
+        </h4>
+        <ol>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+        </ol>
+        <hr> <!-- Horizontal Line -->
+        <h1>
+            Table
+        </h1>
+        <table border="1" width="100%">
+            <thead>
+                <tr>
+                    <th>Colum 1</th>
+                    <th>Colum 2</th>
+                    <th>Colum 3</th>
+                    <th>Colum 4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Row 1 cell #1</td>
+                    <td>Row 1 cell #2</td>
+                    <td>Row 1 cell #3</td>
+                    <td>Row 1 cell #4</td>
+                </tr>
+                <tr>
+                    <td>Row 2 cell #1</td>
+                    <td>Row 2 cell #2</td>
+                    <td>Row 2 cell #3</td>
+                    <td>Row 2 cell #3</td>
+                </tr>
+                <tr>
+                    <td>Row 3 cell #1</td>
+                    <td>Row 3 cell #2</td>
+                    <td>Row 3 cell #3</td>
+                    <td>Row 3 cell #3</td>
+                </tr>
+                <tr>
+                    <td>Row 4 cell #1</td>
+                    <td>Row 4 cell #2</td>
+                    <td>Row 4 cell #3</td>
+                    <td>Row 4 cell #3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Footer Title 1</th>
+                    <th>Footer Title 2</th>
+                    <th>Footer Title 3</th>
+                    <th>Footer Title 4</th>
+                </tr>
+            </tfoot>
+        </table>
+        <br>
+        <table border="1" width="100%">
+            <thead>
+                <tr>
+                    <td>Table Data (td)</td>
+                    <th>Table Head (th)</th>
+                    <td>Something</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Something in here</td>
+                    <td>And in here too</td>
+                    <td>And also here</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Merger of 'colspan' of 2 (td)</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Merger of 'coslpan' of 2 (th)</th>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Merger of 'colspan' of 3 (td)</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            Because "(th)" is a <u>header</u>, they're always bold
+            and in the center. <br>
+            The number of colspan is how much the table row will be merge.<br>
+            In order to see the real table we must add <u>border</u> inside the <u>table</u>.<br>
+            <br>
+            table = Table category/group <br>
+            tr = Table Row <br>
+            th = Table Head <br>
+            td = Table Data Cell <br>
+            thead = The group of Table Head <br>
+            tbody = The group of Table Body <br>
+            tfoot = The group of Table Foot <br>
+        </p>
+        <span>Example table :</span>
+        <table border="1" width="100%">
+            <tr>
+                <td>Color</td>
+                <td>Subcolor</td>
+                <td>Hex value</td>
+                <td>RGB value</td>
+            </tr>
+            <tr>
+                <td rowspan="3" bgcolor="blue">Blue</td>
+                <td>Light Blue</td>
+                <td>#unknown</td>
+                <td>rgb(0,0,0)</td>
+            </tr>
+            <tr>
+                <td>Dark Blue</td>
+                <td>#unknown</td>
+                <td>rgb(0,0,0)</td>
+            </tr>
+            <tr>
+                <td>Gray Blue</td>
+                <td>#unknown</td>
+                <td>rgb(0,0,0)</td>
+            </tr>
+            <!-- Next color -->
+            <tr>
+                <td rowspan="3" bgcolor="red">red</td>
+                <td>Light red</td>
+                <td>#unknown</td>
+                <td>rgb(0,0,0)</td>
+            </tr>
+            <tr>
+                <td>Dark red</td>
+                <td>#unknown</td>
+                <td>rgb(0,0,0)</td>
+            </tr>
+            <tr>
+                <td>Gray red</td>
+                <td>#unknown</td>
+                <td>rgb(0,0,0)</td>
+            </tr>
+        </table>
+        <hr> <!-- Horizontal Line -->
+        <h4>Link of Media Social (h4)</h4>
+        <a href="http://facebook.com" target="_blank">facebook</a><br>
+        <a href="http://instagram.com" target="_blank">instagram</a><br>
+        <p id="bottom">
+            This is Bottom / <a href="#top">Go Up</a>
+        </p>
+    </body>
+</html>
